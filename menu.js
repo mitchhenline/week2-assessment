@@ -163,9 +163,13 @@ foodArr = [
 //CODE HERE
 
 
+const filteredFood = foodArr.tags(tag => tags === 'summer')
+
+//const filteredFood = foodArr.filter(
 
 
-/*const filteredFood = foodArr.filter(checkTag(tag)){
+
+)){
     return (tag === (tag))
 }
 ) */
@@ -215,7 +219,7 @@ foodArr = [
  function filterByProperty(property, number, type){
     const NewFoodArr = []
     const filteredArr = foodArr.filter(
-        
+
     )
  }
 
